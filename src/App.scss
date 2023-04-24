@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #e3e7eb;
+}
+
+.main-container {
+  background-color: white;
+  margin: 20px;
+}
+
+.body-container {
+  display: flex;
+}
+
+.mainTitle {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.subTitle {
+  color: rgb(72, 67, 67);
+  padding: 20px 0;
+}
+
+.description {
+  color: rgb(121, 117, 117);
+  margin: 8px 0;
+}
+
+.link {
+  color: rgb(175, 171, 171);
+}

@@ -1,0 +1,28 @@
+.transactionsContainer {
+  flex: 1;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  .tableCell {
+    color: rgb(72, 67, 67);
+
+    .image {
+      width: 32px;
+      height: 32px;
+    }
+    .status {
+      padding: 5px;
+      border-radius: 5px;
+      &.Approved {
+        color: green;
+        background-color: rgba(0, 128, 0, 0.122);
+      }
+      &.Pending {
+        color: goldenrod;
+        background-color: rgba(218, 165, 32, 0.143);
+      }
+    }
+  }
+}

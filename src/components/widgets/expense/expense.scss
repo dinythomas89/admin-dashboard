@@ -1,0 +1,11 @@
+.expenseContainer {
+  flex: 2;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  .chartContainer {
+    margin-bottom: 10px;
+  }
+}

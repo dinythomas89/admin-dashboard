@@ -1,0 +1,55 @@
+.orderContainer {
+  margin: 20px 0;
+  .top {
+    display: flex;
+    justify-content: space-around;
+  }
+  .bottom {
+    margin: 20px;
+
+    .top{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0;
+    }
+
+    .dataTable {
+      height: 65vh;
+      max-width:76vw ;
+      .cellWithStatus {
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Approved {
+          background: rgba(0, 128, 0, 0.147);
+          color: green;
+        }
+
+        &.Pending {
+          background: rgba(218, 165, 32, 0.165);
+          color: goldenrod;
+        }
+      }
+
+      .cellAction {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewButton {
+          padding: 2px 5px;
+          border-radius: 5px;
+          color: darkblue;
+          border: 1px dotted rgba(0, 0, 139, 0.238);
+        }
+
+        .editButton {
+          padding: 2px 5px;
+          border-radius: 5px;
+          color: rgb(93, 27, 12);
+          border: 1px dotted rgba(16, 36, 13, 0.194);
+        }
+      }
+    }
+  }
+}
